@@ -43,7 +43,6 @@ module FinalProject
     # Don't generate system test files.
     config.generators.system_tests = nil
 
-
     Rails.application.config.middleware.insert_after(
       ActionDispatch::Static,
       ActionDispatch::Static,
